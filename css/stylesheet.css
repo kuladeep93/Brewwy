@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2016, 1:44:05 AM
+    Author     : KULADEEP
+*/
+a:hover,a:active{
+    text-decoration: none;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, code,
+caption,article, aside, details, embed, 
+footer, header,
+menu, nav,section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    background-color: #523794;
+}
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.affix {
+    padding:0px;
+    -webkit-transition:padding 0.5s linear;
+    -moz-transition:padding 0.5s linear;  
+    -o-transition:padding 0.5s linear;         
+    transition:padding 0.5s linear;  
+}
+
+.affix-top {
+    padding: 10px 0px;
+    background-color: transparent ;
+    -webkit-transition:padding 0.5s linear;
+    -moz-transition:padding 0.5s linear;  
+    -o-transition:padding 0.5s linear;         
+    transition:padding 0.5s linear;  
+}
+.scrn70{
+    min-height: 70vh;
+    opacity: 0.6;
+}
+
+#container2{
+    height: 100vh; 
+    background-image: url('../images/Marketing-Technology.jpg.jpg')
+}
+#container4{
+    height: 100vh;
+    background-image: url('../images/marketing-page.jpg')
+}
