@@ -1,36 +1,18 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Jun 14, 2016, 1:44:05 AM
-    Author     : KULADEEP
-*/
 a:hover,a:active{
     text-decoration: none;
-}
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote,
-a, abbr, acronym, address, code,
-caption,article, aside, details, embed, 
-footer, header,
-menu, nav,section{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
 body{
     background-color: #523794;
 }
+
 .full-screen {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+/********************
+nav bar styles
+**********************/
 .affix {
     padding:0px;
     -webkit-transition:padding 0.5s linear;
@@ -47,9 +29,54 @@ body{
     -o-transition:padding 0.5s linear;         
     transition:padding 0.5s linear;  
 }
+/*************************
+home container section
+**************************/
+#home-container{
+    height: 100vh;
+    background-image: url('../images/BG.png');
+    background-position: 50% 50%;
+    overflow-x: hidden;
+}
+.light-bulb {
+  position: absolute;
+  top: 0;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: top;
+  height: 400px;
+}
+
+.light-bulb {
+  z-index: 11;
+  -moz-animation: 3s ease 0s normal none infinite bulb-swing;
+  -webkit-animation: bulb-swing 3s infinite ease-in-out;
+}
+
+@-moz-keyframes bulb-swing {
+  0%{-moz-transform: rotate(-10deg)}
+  50%{-moz-transform: rotate(10deg)}
+  100%{-moz-transform: rotate(-10deg)}
+}
+
+@-webkit-keyframes bulb-swing {
+  0%{-webkit-transform: rotate(-10deg)}
+  50%{-webkit-transform: rotate(10deg)}
+  100%{-webkit-transform: rotate(-10deg)}
+}
+#bulb1{
+    left: 5%;
+}
+#bulb2{
+    left:30%;
+}
+#bulb3{
+    left:55%;
+}
+#bulb4{
+    right: 5%;
+}
 .scrn70{
     min-height: 70vh;
-    opacity: 0.6;
 }
 
 #container2{
